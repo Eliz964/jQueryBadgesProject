@@ -10,7 +10,7 @@ $(function() {
   });
 
   function addCourses(courses) {
-  	
+
   	var $badges = $('#badges');
   	
   	courses.forEach(function(course) {
@@ -30,7 +30,7 @@ $(function() {
 		$('<a />', {
 			'class': 'btn btn-primary',
 			target: '_blank',
-			href: 'course.url',
+			href: '$course.url',
 			text: 'See Course'
 		}).appendTo($course);
 
