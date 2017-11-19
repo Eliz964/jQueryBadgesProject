@@ -30,7 +30,7 @@ $(function() {
 		$('<a />', {
 			'class': 'btn btn-primary',
 			target: '_blank',
-			href: '$course.url',
+			href: course.url,
 			text: 'See Course'
 		}).appendTo($course);
 
